@@ -1,6 +1,0 @@
-c:\users\brypr_000\documents\visual studio 2013\Projects\AdventureKata\AdventureKata\bin\Debug\AdventureKata.exe.config
-c:\users\brypr_000\documents\visual studio 2013\Projects\AdventureKata\AdventureKata\bin\Debug\AdventureKata.exe
-c:\users\brypr_000\documents\visual studio 2013\Projects\AdventureKata\AdventureKata\bin\Debug\AdventureKata.pdb
-c:\users\brypr_000\documents\visual studio 2013\Projects\AdventureKata\AdventureKata\obj\Debug\AdventureKata.csprojResolveAssemblyReference.cache
-c:\users\brypr_000\documents\visual studio 2013\Projects\AdventureKata\AdventureKata\obj\Debug\AdventureKata.exe
-c:\users\brypr_000\documents\visual studio 2013\Projects\AdventureKata\AdventureKata\obj\Debug\AdventureKata.pdb
