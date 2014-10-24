@@ -29,12 +29,34 @@ namespace AdventureStateMachineTests
         }
 
         [Test]
-        public void AStateMachineProduceATextStateThatIsNotEmptyOrNull()
+        public void AStateMachineShouldHaveAnInitialStateOf_InitialState()
         {
             AdventureStateMachine stateMachine = new AdventureStateMachine();
 
-            Assert.That(!String.IsNullOrEmpty(stateMachine.GetState()));
+            Assert.That(stateMachine.GetState(), Is.EqualTo(AdventureStateMachine.AdventureStates.INITIAL_STATE));
         }
+
+        [Test]
+        public void AnyStringInputWillResultInMovingToThe()
+        {
+            AdventureStateMachine stateMachine = new AdventureStateMachine();
+
+            Assert.That(stateMachine.GetState(), Is.EqualTo(AdventureStateMachine.AdventureStates.CAVE_STATE));
+        }
+
+        [Test]
+        public void AnyStringInputWillResultInMovingToThe()
+        {
+            AdventureStateMachine stateMachine = new AdventureStateMachine();
+
+            stateMachine.currentState = AdventureStateMachine.AdventureStates.CAVE_STATE;
+            stateMachine.Input("Jump");
+
+
+            Assert.That(stateMachine.GetState(), Is.EqualTo(AdventureStateMachine.AdventureStates.CAVE_STATE));
+        }
+
+
 
     }
 }
